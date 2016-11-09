@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.dir{
+  box-shadow: 0 0 1em grey;
+  padding: 5px 30px 10px 30px;
+  border-color: LightGray;
+  border-style: groove;
+  border-width: medium;
+}
+
+.dir > p{
+  border-color: LightGray;
+  border-bottom-style: groove;
+  color: black;
+  text-decoration: bold;
+}
+
+.dir > div{
+  display: block;
+}
+
+.file{
+  .display: block;
+}
+
+.file > p{
+  color: DarkSlateGrey;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
